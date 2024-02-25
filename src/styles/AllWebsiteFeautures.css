@@ -1,0 +1,55 @@
+.feat-all{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.feat-box{
+    position: relative;
+    width: max-content;
+    padding:75px 150px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.feat-header{
+    font-size: 27px;
+    font-weight: 700;
+    margin:25px 0;
+    color: #2b3240;
+}
+
+.feat-img-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap:25px;
+}
+.feat-img-holder{
+    max-width: 300px;
+    max-height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    border:2px solid #2b3240;
+}
+.feat-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.feat-note{
+    margin-top:50px;
+    margin-left:200px;
+    font-size:19px;
+    font-weight: 500;
+}
+
+.feat-vid{
+    max-width: 100%;
+    max-height: 100%;
+    
+}

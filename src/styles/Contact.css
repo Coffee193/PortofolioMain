@@ -1,0 +1,78 @@
+.contact-box{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 25px;
+    top: calc(50vh - 97.2px - 150px);
+}
+
+.contact-info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 35px 75px;
+    color:#2b3240;
+}
+
+.contact-name{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.contact-container{
+    width: 100%;
+    margin-top:75px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+.contact-val{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    font-size: 19px;
+}
+.contact-val>span{
+    font-weight: 500;
+}
+
+.contact-bubl{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: -1;
+    transition:0.2s ease-out;
+    animation-fill-mode:forwards;
+}
+
+.bubl1{
+    background-color: #f0f0f0;
+    bottom: -150px;
+    left: -75px;
+}
+
+.bubl2{
+    /* background-color: rgb(183, 234, 178); */
+    background-color: #f0f0f0;
+    scale: 0.5;
+    top:35%;
+    left:-175px;
+}
+/* rgb(84, 177, 74); */
+
+.bubl3{
+    /* background-color: var(--color-text-main-hover-blue-experimental-lighter-evenmore); */
+    background-color: #f0f0f0;
+    top:0;
+    right:-185px;
+    scale: 0.75;
+}
+
+@keyframes bubl {
+    0%{
+              
+    }
+}
