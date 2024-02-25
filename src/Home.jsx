@@ -34,6 +34,7 @@ import { XClose } from './svgs/SvgAll'
 import { Link } from 'react-router-dom'
 
 export function Home(){
+    let img_path = import.meta.env.VITE_DEFIMGPATH
 
     const has_tick = useRef(false)
     const range_fill_ref = useRef()
@@ -193,7 +194,7 @@ export function Home(){
 
                     <div className='home-upper-img-holder-anim-popup'>
                         <div className='home-upper-img-holder'>
-                            <img src='/home/Camera3.jpg' className='home-upper-img'/>
+                            <img src={img_path + '/home/Camera3.jpg'} className='home-upper-img'/>
                         </div>
                     </div>
 
@@ -225,7 +226,7 @@ export function Home(){
                                 <span>Ecommerce</span>
                             </div>
                             <div className='project-img-filter'/>
-                            <img src='/home/screenshot_e1.PNG' className='project-img'/>
+                            <img src={img_path + '/home/screenshot_e1.PNG'} className='project-img'/>
                         </div>
 
                         <div className='project-tech-stack'>
@@ -255,7 +256,7 @@ export function Home(){
                                 <span>Machine Learning</span>
                             </div>
                             <div className='project-img-filter'/>
-                            <img src='/home/screenshot_e10.PNG' className='project-img'/>
+                            <img src={img_path + '/home/screenshot_e10.PNG'} className='project-img'/>
                         </div>
 
                         <div className='project-tech-stack project-tech-last'>

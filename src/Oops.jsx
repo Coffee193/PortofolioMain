@@ -7,7 +7,7 @@ export function Oops(){
         <div className='w-100p'>
             <div className='center-it-col' style={{paddingBottom:'50px'}}>
                 <div className='img-holder-oops'>
-                    <img src='/home/vectorjuice_sad2.jpg' className='img-oops'/>
+                    <img src={import.meta.env.VITE_DEFIMGPATH + '/home/vectorjuice_sad2.jpg'} className='img-oops'/>
                 </div>
 
                 <span className='oops-header'>
